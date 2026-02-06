@@ -1,3 +1,5 @@
+using System.Reflection.Metadata;
+
 namespace MiCli;
 
 // TODO: Declara una constante e intenta cambiar su valor para ver el error
@@ -12,7 +14,7 @@ public class Ejercicio3_ErrorIntencional
         // TODO: Lee el error que te da Visual Studio
         // TODO: Comenta la línea que causa el error
         // TODO: Retorna un mensaje con el valor de la constante
-        return $"{a}"; //OJO: reemplaza este texto
+        return $"Constante {a}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }
     

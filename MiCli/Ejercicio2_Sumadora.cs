@@ -6,7 +6,7 @@ public class Ejercicio2_Sumadora
     public static int Sumar(int a, int b)
     {
         // TODO: Implementa la suma de a y b
-        return 0; //OJO: reemplaza este texto con el resultado de la suma
+        return a+b; //OJO: reemplaza este texto con el resultado de la suma
         throw new NotImplementedException();
     }
     
@@ -17,7 +17,7 @@ public class Ejercicio2_Sumadora
         // TODO: Implementa la suma de a y b, y guarda el resultado
         resultado = a+b;
         // TODO: Retorna el texto "La suma es: X" donde X es el resultado
-        return $"{resultado}"; //OJO: reemplaza este texto
+        return $"La suma es: {resultado}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }
     

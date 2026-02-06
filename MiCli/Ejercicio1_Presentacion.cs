@@ -10,7 +10,7 @@ public class Ejercicio1_Presentacion
         string carrera = "Ingenieria en Sistemas Computacionales";
         string hobby = "Videojuegos";
         // TODO: Retorna un string con las tres variables en líneas separadas
-        return $"Hola mi nombre es {nombre},\nestudio la carrera de {carrera},\ny mi hobby favorito es {hobby}"; //OJO: reemplaza este texto
+        return $"Hola mi nombre es {nombre}.\nEstudio la carrera de {carrera}.\nY mi hobby favorito es {hobby}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }
     
