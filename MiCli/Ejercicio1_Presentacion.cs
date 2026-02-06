@@ -7,7 +7,8 @@ public class Ejercicio1_Presentacion
     {
         // TODO: Declara tres variables string: nombre, carrera y hobby
         // TODO: Retorna un string con las tres variables en líneas separadas
-        return "reemplaza este texto con tu presentación"; //OJO: reemplaza este texto
+        string nombre = "Pedro Feliz", carrera = "Ingenieria en Sistemas Computacionales", hobby = "Videojuegos";
+        return $"Hola mi nombre es {nombre},\nestudio la carrera de {carrera},\ny mi hobby favorito es {hobby}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }
     

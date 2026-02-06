@@ -15,7 +15,10 @@ public class Ejercicio2_Sumadora
         // TODO: Declara dos variables int con valores fijos
         // TODO: Implementa la suma de a y b, y guarda el resultado
         // TODO: Retorna el texto "La suma es: X" donde X es el resultado
-        return "reemplaza este texto con el resultado de la suma"; //OJO: reemplaza este texto
+        int a=5, b=8, resultado;
+
+        resultado = a+b;
+        return $"{resultado}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }
     
