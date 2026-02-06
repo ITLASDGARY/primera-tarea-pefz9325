@@ -6,12 +6,12 @@ public class Ejercicio3_ErrorIntencional
     public static string UsarConstanteCorrectamente()
     {
         // TODO: Declara una constante int
+        const int a = 15;
         // TODO: Intenta cambiar su valor en la siguiente línea (esto causará un error)
+        //a = 19;
         // TODO: Lee el error que te da Visual Studio
         // TODO: Comenta la línea que causa el error
         // TODO: Retorna un mensaje con el valor de la constante
-        const int a = 15;
-        //a = 19;
         return $"{a}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }

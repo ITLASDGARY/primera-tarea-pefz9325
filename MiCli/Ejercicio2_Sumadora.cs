@@ -13,11 +13,10 @@ public class Ejercicio2_Sumadora
     public static string ObtenerResultado()
     {
         // TODO: Declara dos variables int con valores fijos
-        // TODO: Implementa la suma de a y b, y guarda el resultado
-        // TODO: Retorna el texto "La suma es: X" donde X es el resultado
         int a=5, b=8, resultado;
-
+        // TODO: Implementa la suma de a y b, y guarda el resultado
         resultado = a+b;
+        // TODO: Retorna el texto "La suma es: X" donde X es el resultado
         return $"{resultado}"; //OJO: reemplaza este texto
         throw new NotImplementedException();
     }
